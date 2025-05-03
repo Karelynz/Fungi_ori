@@ -55,13 +55,3 @@ CYA781Rb (R2): GACTACAGGGGTATCTAATCCCTTT
 
 Karen Nunez (github.com/Karelynz)
 Reserva de la Biosfera de Mapimí – Análisis de comunidades microbianas en biocostras
-
-
----
-
-## ✅ Próximo paso
-
-1. Crea el archivo:
-
-```bash
-nano README.md
