@@ -26,7 +26,7 @@ Esto ejecuta:
 Recorte de adaptadores con cutadapt
 Análisis de calidad con fastqc (opcional) y multiqc (si está disponible)
 Resumen y gráficos de recorte por muestra
-Subida automática de resultados a GitHub
+
 📊 Resumen del recorte de adaptadores
 
 🧬 Informe de calidad (FastQC + MultiQC)
@@ -55,3 +55,4 @@ CYA781Rb (R2): GACTACAGGGGTATCTAATCCCTTT
 
 Karen Nunez (github.com/Karelynz)
 Reserva de la Biosfera de Mapimí – Análisis de comunidades microbianas en biocostras
+Desarrollado durante mi tesis doctoral - IPICyT
