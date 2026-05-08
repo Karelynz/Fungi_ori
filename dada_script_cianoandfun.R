@@ -99,7 +99,7 @@ mock_comparison <- data.frame(
 )
 write.csv(mock_comparison, file="mock_evaluation_hongos.csv")
 
-# 🔹 FILTRADO POR ABUNDANCIA DESPUÉS DE LA EVALUACIÓN MOCK 🔹
+# FILTRADO POR ABUNDANCIA DESPUÉS DE LA EVALUACIÓN MOCK 
 # 1. Eliminar singletons y doubletons
 seqtab_ciano_nochim <- seqtab_ciano_nochim[, colSums(seqtab_ciano_nochim) > 2]
 seqtab_hongos_nochim <- seqtab_hongos_nochim[, colSums(seqtab_hongos_nochim) > 2]
@@ -127,7 +127,7 @@ write.csv(seqtab_hongos_nochim, file="seqtab_hongos_filtered.csv")
 write.csv(seqtab_ciano_top, file="seqtab_ciano_top.csv")
 write.csv(seqtab_hongos_top, file="seqtab_hongos_top.csv")
 
-# 🔹 CREACIÓN DEL OBJETO PHYLOSEQ 🔹
+# CREACIÓN DEL OBJETO PHYLOSEQ 
 # Crear objetos phyloseq para análisis en R
 ps_ciano <- phyloseq(
   otu_table(seqtab_ciano_nochim, taxa_are_rows=FALSE),
