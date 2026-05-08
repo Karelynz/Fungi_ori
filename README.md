@@ -1,10 +1,10 @@
-# 🧬 Fungi_ori: Procesamiento de secuencias fúngicas y cianobacterianas
+# Fungi_ori: Procesamiento de secuencias fúngicas y cianobacterianas
 
 Este repositorio contiene un pipeline automatizado para el recorte, análisis y visualización de secuencias de ADN dirigidas a hongos (ITS) y cianobacterias (16S), incluyendo control de calidad y generación de reportes.
 
 ---
 
-## 📁 Estructura del repositorio
+## Estructura del repositorio
 
 - `separar_sec.sh`: script principal que ejecuta todo el flujo.
 - `hongos/`: archivos FASTQ recortados para hongos.
@@ -16,7 +16,7 @@ Este repositorio contiene un pipeline automatizado para el recorte, análisis y 
 
 ---
 
-## 🚀 Ejecución del pipeline
+##  Ejecución del pipeline
 
 ```bash
 chmod +x separar_sec.sh
@@ -27,13 +27,13 @@ Recorte de adaptadores con cutadapt
 Análisis de calidad con fastqc (opcional) y multiqc (si está disponible)
 Resumen y gráficos de recorte por muestra
 
-📊 Resumen del recorte de adaptadores
+ Resumen del recorte de adaptadores
 
-🧬 Informe de calidad (FastQC + MultiQC)
+ Informe de calidad (FastQC + MultiQC)
 
 Ver reporte completo
 
-⚙️ Requisitos
+ Requisitos
 
 cutadapt
 fastqc (opcional pero recomendado)
@@ -42,7 +42,7 @@ python3, matplotlib, pandas (para generar el gráfico)
 Instalación rápida:
 
 pip install cutadapt fastqc multiqc matplotlib pandas
-🔬 Adaptadores utilizados
+ Adaptadores utilizados
 
 Hongos:
 ITS5 (R1): GGAAGTAAAAGTCGTAACAAGG
@@ -51,7 +51,7 @@ Cianobacterias:
 CYA106Fw (R1): CGGACGGGTGAGTAACGCGTGA
 CYA781Ra (R2): GACTACTGGGGTATCTAATCCCATT
 CYA781Rb (R2): GACTACAGGGGTATCTAATCCCTTT
-👩‍🔬 Autora
+Autora
 
 Karen Nunez (github.com/Karelynz)
 Reserva de la Biosfera de Mapimí – Análisis de comunidades microbianas en biocostras
